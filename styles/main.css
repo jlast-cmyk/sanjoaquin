@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    display: flex;
+    align-items: baseline;
+}
+
+header h2 {
+        font-size: 170%;
+        color: #800000;
+        padding-left: 30px;
+}
+header h3 {
+        font-size: 130%;
+        font-style: italic;
+        padding-left: 30px;
+}
+
+a:link:hover {
+    font-style: italic;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+}
+
+main h1 {
+    font-size: 150%;
+}
+
+main h2 {
+    font-size: 130%;
+    color: #800000;
+}
+
+main h3 {
+    font-size: 105%;
+}
+
+::shadow {
+    text-shadow: #800000;
+}
+
+footer p {
+    text-align: center;
+}
