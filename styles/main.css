@@ -23,6 +23,10 @@ header h3 {
         font-style: italic;
         padding-left: 30px;
 }
+.shadow {
+    text-shadow: 2px 2px 3px #800000;
+}
+
 
 a:link:hover {
     font-style: italic;
@@ -44,10 +48,6 @@ main h2 {
 
 main h3 {
     font-size: 105%;
-}
-
-::shadow {
-    text-shadow: #800000;
 }
 
 footer p {
