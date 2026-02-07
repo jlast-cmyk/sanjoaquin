@@ -51,13 +51,27 @@ body {
 
 main {
     padding: 1em;
+    display: flex;
+}
+main section {
+    width: 70%;
+}
+main section article {
+    display: wrap;
+}
+main aside {
+    width: 30%;
+}
+main section h2 {
+    border-top: 3px solid #931420;
+
 }
 
 main h1 {
     font-size: 150%;
     padding: .3em 0;
-    border-bottom: 3px solid #931420;
-    border-top: 3px solid #931420;
+    border-bottom: 1px solid #931420;
+    /* border-top: 3px solid #931420; */
 }
 
 main h2 {
