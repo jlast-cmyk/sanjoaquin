@@ -4,6 +4,20 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- JQuery CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+	<!-- Slick Nav JS file -->
+	<script src="js/jquery.slicknav.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#nav_menu').slicknav({ prependTo: "#mobilemenu" });
+		});
+	</script>
+
+	<link rel="stylesheet" href="styles/slicknav.css">
 	<link rel="stylesheet" href="styles/main.css">
 	<title>Document</title>
 </head>
@@ -17,15 +31,16 @@
 		</div>
 
 	</header>
-
-	<nav id="nav_menu">
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="speakers.html">Speakers</a></li>
-			<li><a href="luncheons.html">Luncheons</a></li>
-			<li><a href="tickets.html">Tickets</a></li>
-			<li><a href="about.html">About Us</a></li>
-		</ul>
+	<nav id="mobilemenu">
+		<nav id="nav_menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="speakers.html">Speakers</a></li>
+				<li><a href="luncheons.html">Luncheons</a></li>
+				<li><a href="tickets.html">Tickets</a></li>
+				<li><a href="about.html">About Us</a></li>
+			</ul>
+		</nav>
 	</nav>
 
 	<main>
@@ -57,7 +72,10 @@
 				<h2>Fossil Threads in the Web of Life</h2>
 				<img src="images/sampson_dinosaur.jpg" alt="Scott Sampson with dinosaur">
 				<h3>February<br>Scott Sampson</h3>
-				<p>What's 75 million years old and brand spanking new? A teenage Utahceratops! Come to the Saroyan, armed with your best dinosaur roar, when Scott Sampson, Research Curator at the Utah Museum of Natural History, steps to the podium. Sampson's research has focused on the ecology and evolution of late Cretaceous dinosaurs and he has conducted fieldwork in a number of countries in Africa.</p>
+				<p>What's 75 million years old and brand spanking new? A teenage Utahceratops! Come to the Saroyan,
+					armed with your best dinosaur roar, when Scott Sampson, Research Curator at the Utah Museum of
+					Natural History, steps to the podium. Sampson's research has focused on the ecology and evolution of
+					late Cretaceous dinosaurs and he has conducted fieldwork in a number of countries in Africa.</p>
 				<p><a href="speakers/sampson.html">Read More</a></p>
 			</article>
 
@@ -68,7 +86,7 @@
 				<li>Single Speaker: $25</li>
 			</ul>
 		</section>
-		
+
 	</main>
 	<footer>
 		<p>(c) 2026, San Joaquin Valley Town Hall, Fresno, CA 93755 </p>
